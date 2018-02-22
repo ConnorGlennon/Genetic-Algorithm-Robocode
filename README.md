@@ -37,3 +37,8 @@ Somehow evaluate the fitness of each robot. I have a feeling it will just be the
 Choose which robots reproduce and how. How meaning what data/DNA is passed on. Also add mutations to each generation.
 ##### Repopulate
 Take the new population and start the process again.
+
+### Some more thoughts
+Based on the video found here: https://www.youtube.com/watch?v=nrKjSeoc7fc
+I now think that my initial worries I had about having a small population or a large one I have to split up and cross compete are somewhat saved by the fact that a well tuned mutation rate could be enough to offset having a low population if I choose to just evolve based on a 12 robot battle where the population is 12.
+To be honest though i'm sure I will need more robos than that. Maybe generate a population and randomly distribute them into matchups. I'm thinking about having leagues and some evoltionary benefits for coming top of the table. Or having regions like in the real world where occasionally robos may find their way into other regions and could either disastrously fail and die out or repopulate the region. I realy want to call the regions METAs just so I can say one species invaded and changed the meta during this generation.
