@@ -1,4 +1,5 @@
 # Genetic-Algorithm-Robocode
+# Genetic neural network algorithm - Robocode
 Using the Robocode API/Game I want to create a system by which my robots can "learn" to play better.
 ###### I want to create the best killers, campers or evasion specialists possible.
 Who knows what is truly the best tactic for playing this game. I hope to find out. Or have fun trying.
@@ -42,3 +43,11 @@ Take the new population and start the process again.
 Based on the video found here: https://www.youtube.com/watch?v=nrKjSeoc7fc
 I now think that my initial worries I had about having a small population or a large one I have to split up and cross compete are somewhat saved by the fact that a well tuned mutation rate could be enough to offset having a low population if I choose to just evolve based on a 12 robot battle where the population is 12.
 To be honest though i'm sure I will need more robos than that. Maybe generate a population and randomly distribute them into matchups. I'm thinking about having leagues and some evoltionary benefits for coming top of the table. Or having regions like in the real world where occasionally robos may find their way into other regions and could either disastrously fail and die out or repopulate the region. I realy want to call the regions METAs just so I can say one species invaded and changed the meta during this generation.
+
+## Step 2:
+I set up an eclipse project that could handle the Robocode engine in order to facilitate the projects goals.
+All I had to do was add the jars in the libs folder of the default installation to my project and then run the code from this link:
+http://robocode.sourceforge.net/docs/robocode/robocode/control/package-summary.html
+
+Steps 3 and 4 will be to learn about neural networks and to create the base robot class. Maybe add name, species or some other cool features to make it fun.
+
